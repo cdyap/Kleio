@@ -1,0 +1,676 @@
+@import url("https://fonts.googleapis.com/css?family=Chivo:400,700|Playfair+Display");
+/* GENERAL CSS RULES */
+.space {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.playfair {
+  font-family: "Playfair Display";
+}
+
+.chivo {
+  font-family: "Chivo";
+}
+
+.red {
+  color: #EC161A;
+}
+
+.grey {
+  color: #666666;
+}
+
+p {
+  line-height: 2em;
+  letter-spacing: 0.3px;
+}
+
+.gap-bottom {
+  margin-bottom: 40px;
+}
+
+a {
+  color: black;
+  border-bottom: 3px #EC161A solid;
+}
+
+.card div.card-block {
+  padding: 20px !important;
+}
+
+a:hover, a:active, a:focus {
+  text-decoration: none;
+  border-bottom: 3px black solid;
+  color: black;
+}
+
+.caption {
+  font-family: "Chivo";
+  color: #bbbbbb;
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 20px;
+}
+
+.hr {
+  width: 20%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-color: white;
+}
+
+.hr-black {
+  width: 20%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-color: black;
+}
+
+.hr-red {
+  width: 20%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-color: #EC161A;
+}
+
+.text-gap-right {
+  padding-right: 30px;
+}
+
+.text-gap-left {
+  padding-left: 30px;
+}
+
+body {
+  background: #faf9f7;
+  overflow-x: hidden;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* NAVBAR RULES*/
+#hamburger-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1500;
+  background: white;
+}
+
+#hamburger-menu a {
+  border-bottom: none;
+  top: 0 !important;
+  position: absolute;
+}
+
+#hamburger-menu button {
+  transition: background 0.2s ease-in;
+}
+
+.c-hamburger {
+  /* display: block; */
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  font-size: 0;
+  text-indent: -9999px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -o-transition: background 0.3s;
+}
+
+.c-hamburger:focus {
+  outline: none;
+}
+
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: 19px;
+  left: 12px;
+  right: 12px;
+  height: 2px;
+  background: #EC161A;
+}
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #EC161A;
+  content: "";
+}
+
+.c-hamburger span::before {
+  top: -6px;
+}
+
+.c-hamburger span::after {
+  bottom: -6px;
+}
+
+.c-hamburger--htx {
+  background-color: #fff;
+}
+
+.c-hamburger--htx span {
+  transition: background 0s 0.2s;
+  -webkit-transition: background 0s 0.2s;
+  -moz-transition: background 0s 0.2s;
+  -o-transition: background 0s 0.2s;
+}
+
+.c-hamburger--htx span.is-active {
+  transition: background 0s 0.2s !important;
+  -webkit-transition: background 0s 0.2s !important;
+  -moz-transition: background 0s 0.2s !important;
+  -o-transition: background 0s 0.2s !important;
+}
+
+.c-hamburger--htx span::before,
+.c-hamburger--htx span::after {
+  transition-duration: 0.2s, 0s;
+  transition-delay: 0.1s, 0s;
+}
+
+.c-hamburger--htx span::before {
+  transition-property: top, -webkit-transform;
+  transition-property: top, transform;
+  transition-property: top, transform, -webkit-transform;
+}
+
+.c-hamburger--htx span::after {
+  transition-property: bottom, -webkit-transform;
+  transition-property: bottom, transform;
+  transition-property: bottom, transform, -webkit-transform;
+}
+
+/* active state, i.e. menu open */
+.show .c-hamburger--htx {
+  background-color: white;
+}
+
+.show .c-hamburger--htx span {
+  background: none;
+}
+
+.show .c-hamburger--htx span::before {
+  top: 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.show .c-hamburger--htx span::after {
+  bottom: 0;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.show .c-hamburger--htx span,
+.show .c-hamburger--htx span::before,
+.show .c-hamburger--htx span::after {
+  transition-delay: 0s, 0.2s;
+}
+
+#hamburger-menu.show button {
+  background: #EC161A !important;
+}
+
+#hamburger-menu.show .c-hamburger span::before,
+#hamburger-menu.show .c-hamburger span::after {
+  background: white;
+}
+
+nav {
+  height: 100vh;
+  width: 100vw;
+  z-index: 1499;
+  background: #EC161A;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in, visibility 0.2s ease-in;
+}
+
+nav div.container, nav div.container div {
+  height: 100%;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-55%);
+  transform: translateY(-55%);
+  padding-left: 0;
+}
+
+nav ul li {
+  color: white;
+  font-size: 2.5em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  background: #EC161A;
+}
+
+nav ul a {
+  border-bottom: none;
+  color: white;
+}
+
+nav ul li:hover, nav ul li:active {
+  /* background: white; */
+  text-decoration: underline;
+  color: white !important;
+}
+
+nav ul a:hover li {
+  color: #ec161a;
+}
+
+nav ul a:hover {
+  color: #ec161a;
+  border-bottom: none;
+}
+
+/* PAGE RULES */
+#landing {
+  background: #faf9f7;
+  height: 94vh;
+  text-align: center;
+}
+
+#landing img.girl {
+  height: 85vh;
+  right: 0;
+  position: absolute;
+  bottom: 0px;
+}
+
+#landing img.logo {
+  height: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  z-index: 680;
+}
+
+#landing h1 {
+  font-family: 'Chivo', sans-serif;
+  color: #322f31;
+  z-index: 700;
+}
+
+#part2 {
+  background: #EC161A;
+  padding: 90px 150px;
+  text-align: center;
+  color: white;
+  z-index: 1105;
+  width: 100%;
+}
+
+#part2 h4 {
+  line-height: 1.5em;
+  font-family: 'Chivo', sans-serif;
+}
+
+#part2 h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+#dead-sea {
+  margin-top: 100px;
+  width: 100%;
+  box-shadow: 15px -15px #EEA086;
+}
+
+.card {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 0;
+  background: #F1D2C6;
+}
+
+.card h5 {
+  margin-bottom: 30px;
+}
+
+#minerals {
+  margin-top: 100px;
+  width: 100%;
+  box-shadow: -15px -15px #EEA086;
+}
+
+.card-columns p {
+  text-align: left;
+  font-family: "Playfair Display";
+  margin-bottom: 0;
+  color: white;
+}
+
+.card-columns h5 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+div.container-fluid.imgs {
+  height: 0;
+  overflow: visible;
+}
+
+/* #benefits-img {
+	width: 300px;
+	height: auto;
+	position: relative;
+	right: 0px;
+	top: 0vh;
+	z-index: -10;
+}
+
+#benefits-img2 {
+	width: 300px;
+	height: auto;
+	position: relative;
+	top: 90vh;
+	z-index: -10;
+} */
+.benefits h5 {
+  line-height: 1.7em;
+}
+
+.products .card {
+  background: #faf9f7 !important;
+}
+
+.products h5 {
+  margin-bottom: 0px !important;
+}
+
+.products p.caption {
+  margin-bottom: 20px;
+  margin-top: 5px !important;
+}
+
+.products p.caption.usage {
+  margin-bottom: 10px;
+  margin-top: 10px !important;
+}
+
+.product-item {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.product-item img {
+  box-shadow: 15px -15px #EEA086;
+  display: none;
+}
+
+.product-item .col-lg-6 {
+  padding-left: 50px;
+}
+
+.product-item .col-lg-4 {
+  padding-left: 150px;
+}
+
+.order {
+  background: #eea086;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.form-control {
+  background: #F0A083 !important;
+  outline: none !important;
+  border-radius: 0px !important;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid black;
+  margin-top: 0 !important;
+  margin-bottom: 20px !important;
+  border-color: #666666;
+  color: black;
+}
+
+.form-control:active, .form-control:focus {
+  border-color: black !important;
+}
+
+button[type=submit] {
+  background: white;
+  margin-top: 30px;
+  color: black;
+  background-color: white;
+  font-weight: 300;
+  border: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 10px 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  transition: .2s box-shadow;
+}
+
+button.styled-button {
+  background-color: #EC161A;
+  color: white;
+  margin-top: 30px;
+  font-weight: 300;
+  border: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: .2s box-shadow;
+}
+
+button[type=submit]:hover, button.styled-button:hover {
+  box-shadow: 7px 7px #F0A083;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* MEDIA QUERIES */
+/* for above lg and up */
+@media (min-width: 768px) {
+  #top, #bottom, #left, #right {
+    background: white;
+    position: fixed;
+    z-index: 1100;
+  }
+  #left, #right {
+    top: 0;
+    bottom: 0;
+    width: 40px;
+  }
+  #left {
+    left: 0;
+  }
+  #right {
+    right: 0;
+  }
+  #top, #bottom {
+    left: 0;
+    right: 0;
+    height: 40px;
+  }
+  #top {
+    top: 0;
+  }
+  #bottom {
+    bottom: 0;
+  }
+  body {
+    padding: 40px;
+  }
+  .hide-on-lg {
+    display: none;
+  }
+  .card-columns {
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+  }
+  #dead-sea {
+    margin-top: 200px;
+  }
+  #minerals {
+    margin-top: 200px;
+  }
+}
+
+/* for md and below */
+@media (max-width: 767px) {
+  #top, #bottom, #left, #right {
+    display: none;
+  }
+  body {
+    padding: 0;
+  }
+  #minerals {
+    margin-top: 150px;
+  }
+  #part2 {
+    padding: 90px 50px;
+  }
+  #landing img.girl-sm {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50vh;
+  }
+  #landing img.logo {
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #landing h1 {
+    font-family: 'Chivo', sans-serif;
+    color: #322f31;
+    z-index: 3;
+  }
+  .hide-on-sm {
+    display: none;
+  }
+  #hamburger-menu button {
+    background: none;
+  }
+  .space {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .mv div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .mv div h5 {
+    margin-bottom: 20px;
+  }
+  .text-gap-left {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .text-gap-right, .mv p {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .card-columns .card {
+    margin-bottom: 0;
+  }
+  .card-columns {
+    all: unset;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .card-columns .card {
+    width: 490px !important;
+  }
+}
+
+/* MVV */
+.mvv.header {
+  height: 90vh;
+  width: 100%;
+}
+
+.mvv.header img {
+  height: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.mvv.header h1 {
+  font-size: 4em;
+  margin-top: 100px;
+}
+
+.mvv.statements .mission, .mvv.statements .vision, .mvv.statements .values {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.mvv.statements .row div {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.mvv p {
+  font-size: 1.4em;
+  line-height: 2em;
+  color: black;
+}
+
+.mvv.styled-button:hover {
+  box-shadow: 7px 7px white;
+}
+
+.mvv h2 {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .mvv.statements .row div {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */

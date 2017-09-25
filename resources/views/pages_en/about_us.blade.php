@@ -13,20 +13,36 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link href="{{ elixir('css/app.css') }}" rel="stylesheet" type="text/css">
 
-	<meta property="og:image" content="http://www.kleioskincare.com/img/landingimage.jpg" />
+	<meta property="og:image" content="{{ URL::to('/img/landingimage.jpg') }}" />
     <meta property="og:description" content="Kleio Skin Care System creates to inspire men and women in four corners of the globe to gracefully give pleasure to natural beauty." />
     <meta property="og:url" content="http://www.kleioskincare.com" />
 
     <meta property="og:title" content="Kleio Skin Care System" />
 </head>
 <body>
+	<div id="hamburger-menu">
+		<a href="#" id="hamburger-menu-button" role="button" aria-haspopup="true" aria-expanded="false">
+			<button class="c-hamburger c-hamburger--htx">
+	          	<span>toggle menu</span>
+	        </button></span></span>
+	    </a>
+	</div>
+	<nav>
+		<div class="container">
+			<div class="col-xs-12 menu-container">
+				<ul>
+					<a href="/"><li>Home</li></a>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	<div id="left"></div>
 	<div id="right"></div>
 	<div id="top"></div>
 	<div id="bottom"></div>
 
 	<div class="mvv header">
-		<img src="img/logo.svg" alt="Kleio Skin Care System logo" class="logo">
+		<img src="/img/logo.svg" alt="Kleio Skin Care System logo" class="logo">
 		<h1 class="text-center chivo">More about Kleio</h1>
 	</div>
 

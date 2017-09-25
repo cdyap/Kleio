@@ -28,7 +28,7 @@ function sendContactRequest() {
                 type: 'POST',
                 data: $('form').serialize(),
                 success: function(response) {
-                    alert("Your email has been sent. Thank you " + name + "!");
+                    alert("Your email has been sent. Thank you " + data.name + "!");
                 }
     });
 }

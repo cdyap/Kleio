@@ -55,10 +55,10 @@ return [
     |
     */
 
-    'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
-    ],
+    // 'from' => [
+    //     'address' => env('MAIL_FROM_ADDRESS', 'info.kleioskincarecorp@gmail.com'),
+    //     'name' => env('MAIL_FROM_NAME', 'Example'),
+    // ],
 
     /*
     |--------------------------------------------------------------------------
@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+    'username' => 'app74811457@heroku.com',
 
-    'password' => env('MAIL_PASSWORD'),
+    'password' => 'dprubpe37386',
 
     /*
     |--------------------------------------------------------------------------

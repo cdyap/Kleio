@@ -13,4 +13,4 @@
 
 Route::get('/', 'PagesController@index');
 Route::get('/en/AboutUs', 'PagesController@about_us');
-Route::post('/submit', 'PagesController@submit');
+Route::post('/contact', 'PagesController@submit');

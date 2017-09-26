@@ -7,7 +7,8 @@
     <meta name="description" content="Kleio Skin Care System creates to inspire men and women in four corners of the globe to gracefully give pleasure to natural beauty.">
     <meta name="author" content="Christian Dominic F. Yap">
 	<meta name="keywords" content="mud soap,kleio,kleio skin care,dead sea salt,toner,facial soap,dead sea minerals,salt soap,sea salt">
-
+	<meta name="csrf-token" content="{{ csrf_token() }}">
+	
 	<title>Kleio Skin Care System</title>
 	<link rel="shortcut icon" href="{{ URL::to('/img/favicon.png') }}">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -421,7 +422,7 @@
 			<div class="col-lg-12 order">
 				<h2 class="text-center chivo">Order or inquire now!</h2>
 				<br><br>
-				<form id="contactus">
+				<form id="contactus" action="/contact" method="POST">
 					<input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <div class="row">
                         <div class="col-lg-3"></div>

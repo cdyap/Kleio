@@ -6,6 +6,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use Log;
 
 class ContactUs extends Mailable
 {
@@ -17,21 +18,22 @@ class ContactUs extends Mailable
      * @return void
      */
 
-    public $from;
-    public function __construct(Request $request)
-    {
-        //
-        $this->from = $request->email;
-    }
+    // public $email;
+    // public function __construct($data)
+    // {
+    //     //
+    //     $this->email = $email;
+    // }
 
     /**
      * Build the message.
      *
      * @return $this
      */
+
     public function build()
     {
-        return $this->from($from)
+        return $this->from($email)
                     ->view('email.email');
     }
 }

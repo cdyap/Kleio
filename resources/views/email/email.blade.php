@@ -8,6 +8,6 @@
 <body>
 	<h1>Inquiry from {{$name}}</h1>
 	<br>
-	<h3>{{$message}}</h3>
+	<h3>{{$text}}</h3>
 </body>
 </html>

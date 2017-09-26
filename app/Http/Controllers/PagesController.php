@@ -30,14 +30,13 @@ class PagesController extends Controller
             'message'    => $request->input('message')
         ];
 
-		$name = $data['name'];
-        $message = $data['message'];
+        $email = $data['email'];
 
-        Mail::send('email.email', ['name' => $name, 'message' => $message], function ($message)
+        Mail::send('email.email', ['name' => $data['name'], 'text' => $data['message'], 'email' => $data['email']], function ($message) use ($data)
         {
 
-            $message->from($data['email'], $name);
-            $message->subject("Kleio Inquiry from ". $name);
+            $message->from($data['email'], $data['name']);
+            $message->subject("Kleio Inquiry from ". $data['name']);
             $message->to('cdyap@outlook.com');
 
         });

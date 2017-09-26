@@ -4,9 +4,26 @@ $(document).ready(function(){
 		e.preventDefault();
 	}); 
 
-	$('form').submit(function(xx){
+	$('#contactus').submit(function(xx){
 	    xx.preventDefault(); 
-	    sendContactRequest();
+
+	    $.ajaxSetup({
+		    headers: {
+		        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+		    }
+		});
+	    
+	    $.ajax({
+	    	dataType: 'JSON',
+	        url: $('#contactus').attr('action'),
+	        type: $('#contactus').attr('method'),
+	        data: $('#contactus').serialize(),
+	        success: function(response) {
+	            console.log(response);
+	            console.log(data);
+	        }
+	    });
+
 	    return false;
 	});
 
@@ -21,16 +38,5 @@ $(document).ready(function(){
 		$('#hamburger-menu').toggleClass('show');	
 	});
 });
-
-function sendContactRequest() {
-    $.ajax({
-        url: '/submit',
-                type: 'POST',
-                data: $('form').serialize(),
-                success: function(response) {
-                    console.log(response);
-                }
-    });
-}
 
 //# sourceMappingURL=all.js.map

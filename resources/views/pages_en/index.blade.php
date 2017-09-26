@@ -422,6 +422,7 @@
 				<h2 class="text-center chivo">Order or inquire now!</h2>
 				<br><br>
 				<form id="contactus">
+					<input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <div class="row">
                         <div class="col-lg-3"></div>
                         <div class="col-xs-12 col-lg-6 form-group">

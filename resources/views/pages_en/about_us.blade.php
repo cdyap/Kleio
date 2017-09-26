@@ -9,7 +9,7 @@
     <meta name="keywords" content="mud soap,kleio,kleio skin care,dead sea minerals,about kleio,kleio mission vision">
 
 	<title>About Us - Kleio</title>
-	<link rel="shortcut icon" href="img/favicon.png">
+	<link rel="shortcut icon" href="{{ URL::to('/img/favicon.png') }}">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link href="{{ elixir('css/app.css') }}" rel="stylesheet" type="text/css">
 

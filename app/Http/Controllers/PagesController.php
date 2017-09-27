@@ -10,11 +10,27 @@ class PagesController extends Controller
 {
     //
     public function index(){
-    	return view('pages_en.index');
+        return view('pages_en.index');
     }
 
     public function about_us(){
-    	return view('pages_en.about_us');
+        return view('pages_en.about_us');
+    }
+
+    public function index_ru(){
+        return view('pages_ru.index');
+    }
+
+    public function about_us_ru(){
+        return view('pages_ru.about_us');
+    }
+
+    public function index_ar(){
+    	return view('pages_ar.index');
+    }
+
+    public function about_us_ar(){
+    	return view('pages_ar.about_us');
     }
 
     public function submit(Request $request){

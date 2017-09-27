@@ -538,9 +538,13 @@ nav ul a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 100px;
   z-index: 680;
+}
+
+a.language-link {
+  border-width: 1.5px;
 }
 
 #landing h1 {

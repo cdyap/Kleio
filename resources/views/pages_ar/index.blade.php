@@ -50,13 +50,13 @@
 	<div id="landing" class="row">
 		<div class="col-xs-12 col-md-6">
 			<img src="img/logo.svg" alt="Kleio Skin Care System logo" class="logo">
-			<h1>Be beautiful naturally</h1>
+			<h1>راجعي أي أخطاء محتملة</h1>
 			<br><br>
 			<a href="#order-form"><button class="chivo styled-button">Inquire and order now!</button></a>
 			<br>
 			<br>
 			<br>
-			<p style="font-size:0.8em">View this website in <a href="/ru" class="language-link">Russian</a> or <a href="/ar" class="language-link">Arabic</a></p>
+			<p style="font-size:0.8em">View this website in <a href="/ru" class="language-link">Russian</a> or <a href="/" class="language-link">English</a></p>
 		</div>
 		<div class="col-xs-12 col-md-6"><img src="img/landingimage.png" alt="Russian girl Kleio model" class="girl hide-on-sm"><img src="img/landingimage-sm.png" alt="Russian girl Kleio model" class="girl-sm hide-on-lg"></div>
 	</div>
@@ -72,14 +72,14 @@
 				<p class="caption">Dead Sea</p>
 			</div>
 			<div class="col-md-6 order-md-1 col-xs-12 space grey">
-				<h3 class="text-center chivo red">About us</h3>
+				<h3 class="text-center chivo red">معلومات عنا</h3>
 				<hr class="hr-black">
-				<p class="text-gap-right playfair">Kleio Skin Care, Corp., is a 100% Filipino company incorporated to create a brand concept consisting of skin care products utilizing Dead Sea by-products namely the black mud and salt, imported from Jordan and other wonderful natural ingredients from all corners of the globe to create products of quality and effectiveness to enhance natural beauty.</p>
+				<p class="text-gap-right playfair">شركة كليو للعناية بالبشرة هي شركة فلبينية بنسبة 100٪ تم تأسيسها لإيجاد فكرة علامة تجارية لمنتجات العناية بالبشرة التي تستخدم منتجات البحر الميت من الطين الأسود والملح المستورد من اللملكة الأردنية الهاشمية وغيرها من المكونات الطبيعية والرائعة من جميع أنحاء العالم لخلق منتجات ذات جودة وفعالية لتعزيز الجمال الطبيعي.</p>
 				<br>
-				<p class="text-gap-right playfair">Kleio Skin Care System has been in the market for four years using a wholesale distribution network with a retail strategy. Because of the high cost of both local and imported beauty products, the company has thought of developing and manufacturing a wide array of Dead Sea natural beauty products with a shelf price that is in the middle to lower quadrant of high quality brands with the optimum aesthetic benefits.</p>
+				<p class="text-gap-right playfair">ولقد ظهرنا كمجموعة "كليو للعناية بالبشرة" في السوق منذ أربع سنوات باستخدام مبدأ شبكة توزيع الجملة مع استراتيجية التجزئة. ونظرا لارتفاع تكلفة كل من منتجات التجميل المحلية والمستوردة، فقد فكرت الشركة في تطوير وتصنيع مجموعة واسعة من منتجات جمال البحر الميت باستخدام المواد الطبيعية مع أسعار مخفضة تتراوح  في منطقة المنتصف مانحة المستهلك منتجات عالية الجودة بفوائد الطبيعة القصوى بأسعار أكثر من معقولة.</p>
 				<br>
-				<p class="text-gap-right playfair">We are working with the best manufacturers to develop and bring to market high quality and world class products for skin, body and hair cares. Proper skin testing of our skin care products was done in the laboratory and there was no testing of products on animals. Similarly, we insist that all suppliers have not tested the ingredients on animals for cosmetic purposes. </p>
-				<a href="/en/AboutUs"><button class="chivo styled-button">Read our Mission, Vision, and Values</button></a>
+				<p class="text-gap-right playfair">حن نعمل مع أفضل الشركات المصنعة لتطوير وجلب وتسويق منتجات ذات جودة عالية وعالمية المستوى للعناية بالبشرة والجسم والشعر. تم إجراء فحوصات منتجاتنا في المختبرات بالطرق المناسبة لفحص منتجات العناية بالبشرة ولم يكن هناك اختبارات للمنتجات على الحيوانات. وبالمثل، نحن نصر على أن جميع الموردين لم يقوموا باختبارالمكونات على الحيوانات لأغراض التجميل.</p>
+				<a href="/ar/AboutUs"><button class="chivo styled-button">Read our Mission, Vision, and Values</button></a>
 			</div>
 		</div>
 

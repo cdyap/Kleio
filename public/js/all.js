@@ -12,15 +12,23 @@ $(document).ready(function(){
 		        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
 		    }
 		});
-	    
+
 	    $.ajax({
 	    	dataType: 'JSON',
 	        url: $('#contactus').attr('action'),
 	        type: $('#contactus').attr('method'),
 	        data: $('#contactus').serialize(),
 	        success: function(response) {
-	            console.log(response);
-	            console.log(data);
+	            toastr.success(response.message, 'Success!')
+	        }, 
+	        error: function(response) {
+	        	// toastr.error(response, 'Error!');
+	        	var errors = JSON.parse(response.responseText).errors;
+	        	console.log(errors);
+
+	        	$.each(errors, function(key, value) {
+	        		toastr.error(value[0], "Something went wrong!");
+	        	});	        	
 	        }
 	    });
 

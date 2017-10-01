@@ -7,6 +7,15 @@
 	margin-bottom: 70px;
 }
 
+.flip-horizontally {
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
 .playfair {
 	font-family: "Playfair Display";
 }
@@ -39,7 +48,12 @@ a {
 
 .card div.card-block {
 	padding: 20px!important;
+
+	p {
+		text-align: right;
+	}
 }
+
 
 a:hover, a:active, a:focus {
 	text-decoration: none;
@@ -310,6 +324,13 @@ nav ul a:hover {
 	bottom: 0px;
 }
 
+#landing img.girl-ar {
+	height: 85vh;
+	left: 0;
+	position: absolute;
+	bottom: 0px;
+}
+
 #landing img.logo {
 	height: 60px;
 	display: block;
@@ -575,6 +596,13 @@ button:focus {
 		position: absolute;
 		bottom: 0;
 		right: 0;
+		height: 50vh;
+	}
+
+	#landing img.girl-sm-ar {
+		position: absolute;
+		bottom: 0;
+		left: 0;
 		height: 50vh;
 	}
 

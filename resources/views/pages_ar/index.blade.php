@@ -47,7 +47,7 @@
 	<div id="right"></div>
 	<div id="top"></div>
 	<div id="bottom"></div>
-	<div id="landing" class="row">
+	<div id="landing" class="row" DIR="RTL">
 		<div class="col-xs-12 col-md-6">
 			<img src="img/logo.svg" alt="Kleio Skin Care System logo" class="logo">
 			<h1>راجعي أي أخطاء محتملة</h1>
@@ -58,14 +58,14 @@
 			<br>
 			<p style="font-size:0.8em">View this website in <a href="/ru" class="language-link">Russian</a> or <a href="/" class="language-link">English</a></p>
 		</div>
-		<div class="col-xs-12 col-md-6"><img src="img/landingimage.png" alt="Russian girl Kleio model" class="girl hide-on-sm"><img src="img/landingimage-sm.png" alt="Russian girl Kleio model" class="girl-sm hide-on-lg"></div>
+		<div class="col-xs-12 col-md-6"><img src="img/landingimage.png" alt="Russian girl Kleio model" class="girl-ar hide-on-sm flip-horizontally"><img src="img/landingimage-sm.png" alt="Russian girl Kleio model" class="girl-sm-ar hide-on-lg"></div>
 	</div>
-	<div id="part2">
+	<div id="part2" DIR="RTL">
 		<h4>Kleio Skin Care System creates<br class="hide-on-sm"> to inspire men and women<br class="hide-on-sm"> in four corners of the globe<br class="hide-on-sm"> to gracefully give pleasure<br class="hide-on-sm"> to natural beauty.</h4>
 		<hr class="hr">
 		<h6>Elaine Andaya<br>CEO</h6>
 	</div>
-	<div class="container">
+	<div class="container" DIR="RTL">
 		<div class="row" id="aboutus">
 			<div class="col-md-6 order-md-2 col-xs-12">
 				<img src="img/deadsea.jpg" id="dead-sea" alt="Picture of Dead Sea">
@@ -74,11 +74,11 @@
 			<div class="col-md-6 order-md-1 col-xs-12 space grey">
 				<h3 class="text-center chivo red">معلومات عنا</h3>
 				<hr class="hr-black">
-				<p class="text-gap-right playfair">شركة كليو للعناية بالبشرة هي شركة فلبينية بنسبة 100٪ تم تأسيسها لإيجاد فكرة علامة تجارية لمنتجات العناية بالبشرة التي تستخدم منتجات البحر الميت من الطين الأسود والملح المستورد من اللملكة الأردنية الهاشمية وغيرها من المكونات الطبيعية والرائعة من جميع أنحاء العالم لخلق منتجات ذات جودة وفعالية لتعزيز الجمال الطبيعي.</p>
+				<p class="text-gap-left playfair">شركة كليو للعناية بالبشرة هي شركة فلبينية بنسبة 100٪ تم تأسيسها لإيجاد فكرة علامة تجارية لمنتجات العناية بالبشرة التي تستخدم منتجات البحر الميت من الطين الأسود والملح المستورد من اللملكة الأردنية الهاشمية وغيرها من المكونات الطبيعية والرائعة من جميع أنحاء العالم لخلق منتجات ذات جودة وفعالية لتعزيز الجمال الطبيعي.</p>
 				<br>
-				<p class="text-gap-right playfair">ولقد ظهرنا كمجموعة "كليو للعناية بالبشرة" في السوق منذ أربع سنوات باستخدام مبدأ شبكة توزيع الجملة مع استراتيجية التجزئة. ونظرا لارتفاع تكلفة كل من منتجات التجميل المحلية والمستوردة، فقد فكرت الشركة في تطوير وتصنيع مجموعة واسعة من منتجات جمال البحر الميت باستخدام المواد الطبيعية مع أسعار مخفضة تتراوح  في منطقة المنتصف مانحة المستهلك منتجات عالية الجودة بفوائد الطبيعة القصوى بأسعار أكثر من معقولة.</p>
+				<p class="text-gap-left playfair">ولقد ظهرنا كمجموعة "كليو للعناية بالبشرة" في السوق منذ أربع سنوات باستخدام مبدأ شبكة توزيع الجملة مع استراتيجية التجزئة. ونظرا لارتفاع تكلفة كل من منتجات التجميل المحلية والمستوردة، فقد فكرت الشركة في تطوير وتصنيع مجموعة واسعة من منتجات جمال البحر الميت باستخدام المواد الطبيعية مع أسعار مخفضة تتراوح  في منطقة المنتصف مانحة المستهلك منتجات عالية الجودة بفوائد الطبيعة القصوى بأسعار أكثر من معقولة.</p>
 				<br>
-				<p class="text-gap-right playfair">حن نعمل مع أفضل الشركات المصنعة لتطوير وجلب وتسويق منتجات ذات جودة عالية وعالمية المستوى للعناية بالبشرة والجسم والشعر. تم إجراء فحوصات منتجاتنا في المختبرات بالطرق المناسبة لفحص منتجات العناية بالبشرة ولم يكن هناك اختبارات للمنتجات على الحيوانات. وبالمثل، نحن نصر على أن جميع الموردين لم يقوموا باختبارالمكونات على الحيوانات لأغراض التجميل.</p>
+				<p class="text-gap-left playfair">حن نعمل مع أفضل الشركات المصنعة لتطوير وجلب وتسويق منتجات ذات جودة عالية وعالمية المستوى للعناية بالبشرة والجسم والشعر. تم إجراء فحوصات منتجاتنا في المختبرات بالطرق المناسبة لفحص منتجات العناية بالبشرة ولم يكن هناك اختبارات للمنتجات على الحيوانات. وبالمثل، نحن نصر على أن جميع الموردين لم يقوموا باختبارالمكونات على الحيوانات لأغراض التجميل.</p>
 				<a href="/ar/AboutUs"><button class="chivo styled-button">Read our Mission, Vision, and Values</button></a>
 			</div>
 		</div>
@@ -136,14 +136,14 @@
 			<div class="col-lg-6 grey space">
 				<h3 class="text-center chivo red">About Dead Sea</h3>
 				<hr class="hr-black">
-				<p class="text-gap-left playfair">Dead Sea, appropriately named because of its high mineral content that allows nothing to survive in its waters, known to be the world’s deepest and saltiest bodies of water located between Israel and Jordan, southeast from Jerusalem in the Middle East. Queen of Sheba, King Herod the Great and Cleopatra, the queen of ancient beauty, are few of those who believed in its therapeutic and curative properties. During the ancient times, Egyptians used the salt in various skin creams, ointments and soaps being used up to the present. Dead Sea Salt on the other hand, was obtained from the mineral rich Dead Sea black mud. Presently, tourists from all over the world visit the place for its medicinal and beautifying effects. </p>
+				<p class="text-gap-right playfair">Dead Sea, appropriately named because of its high mineral content that allows nothing to survive in its waters, known to be the world’s deepest and saltiest bodies of water located between Israel and Jordan, southeast from Jerusalem in the Middle East. Queen of Sheba, King Herod the Great and Cleopatra, the queen of ancient beauty, are few of those who believed in its therapeutic and curative properties. During the ancient times, Egyptians used the salt in various skin creams, ointments and soaps being used up to the present. Dead Sea Salt on the other hand, was obtained from the mineral rich Dead Sea black mud. Presently, tourists from all over the world visit the place for its medicinal and beautifying effects. </p>
 				<br>
-				<p class="text-gap-left playfair">Dead Sea Black Mud and Salt are found in abundance on the shores to about 400 meters below sea level. It contains 10% sodium and the rest are 25 different minerals which had been acclaimed for its beneficial effects on health and skin in particular as compared to other sea water containing 90-97% sodium and the rest of various salts and minerals.</p>
+				<p class="text-gap-right playfair">Dead Sea Black Mud and Salt are found in abundance on the shores to about 400 meters below sea level. It contains 10% sodium and the rest are 25 different minerals which had been acclaimed for its beneficial effects on health and skin in particular as compared to other sea water containing 90-97% sodium and the rest of various salts and minerals.</p>
 			</div>
 		</div>
-		<div class="row" id="deadseabenefits">
+		<div class="row" id="deadseabenefits" DIR="RTL">
 			<div class="col-lg-12">
-				<h5 class="text-center chivo" style="padding-left:30px;padding-right:30px;margin-bottom:0;margin-top:40px;">Major minerals and ions of Dead Sea mud and salt:</h5>
+				<h5 class="text-center chivo" style="padding-left:30px;padding-right:30px;margin-bottom:0;margin-top:40px;">Major minerals and ions of Dead Sea mud and salt</h5>
 				<hr class="hr-red">
 			</div>
 			<div class="card-columns">
@@ -198,7 +198,7 @@
 				</div>
 			</div>
 		</div>
-		<h5 class="text-center chivo" style="margin-bottom:30px;margin-top:70px;">Skin benefits:</h5>
+		<h5 class="text-center chivo" style="margin-bottom:30px;margin-top:70px;">Skin benefits</h5>
 		<hr class="hr-red">
 		<div class="benefits">
 			<div class="row gap-bottom">
@@ -207,7 +207,7 @@
 				</div>
 				<div class="col-md-6">
 					<br><br>
-					<h5 class="chivo">Improves and treats various skin ailments</h5>
+					<h5 class="chivo">Improves and controls various skin ailments</h5>
 					<p class="playfair grey gap-bottom">Acne, skin rashes, dandruff, psoriasis, cellulite, eczema, skin allergies</p>
 					<br>
 					<h5 class="chivo gap-bottom">Hydrates and moisturizes skin</h5>
@@ -351,7 +351,7 @@
 			<div class="col-lg-4 offsetl-lg-2"></div>
 			<div class="col-lg-6">
 				<h5 class="chivo">Kleio Skin Care System Natural Dead Sea Salt Scrub with Essential Oil (Virgin Coconut Oil)</h5>
-				<p class="grey playfair" style="margin-top:15px;">Authentic Dead Sea Salt Scrub prepared to get rid of dead skin cells, dirt and other skin impurities leaving a new and clean upper skin layer. Moisturized with our very own Philippine Organic Virgin Coconut Oil for a younger looking, rejuvenated and amazingly radiant skin.<br><br>Dead Sea Salt is excellent in terms of exfoliation and nourishing with more than 25 different minerals with optimum skin benefits. It also helps lessen, if not relieve, aches and muscle fatigue leaving the body feeling refreshed and relaxed. <br><br>Virgin Coconut Oil (VCO), has been used since the ancient times to treat extremely dry skin and other skin infections. Its addition to Dead Sea salt makes skin extraordinarily moisturized and regenerated.</p>
+				<p class="grey playfair" style="margin-top:15px;">Authentic Dead Sea Salt Scrub prepared to get rid of dead skin cells, dirt and other skin impurities leaving a new and clean upper skin layer. Moisturized with our very own Philippine Organic Virgin Coconut Oil for a younger looking, rejuvenated and amazingly radiant skin.<br><br>Dead Sea Salt is excellent in terms of exfoliation and nourishing with more than 25 different minerals with optimum skin benefits. It also helps lessen, if not relieve, aches and muscle fatigue leaving the body feeling refreshed and relaxed. <br><br>Virgin Coconut Oil (VCO), has been used since the ancient times to control extremely dry skin and other skin infections. Its addition to Dead Sea salt makes skin extraordinarily moisturized and regenerated.</p>
 			</div>
 		</div>
 		<div class="row product-item">

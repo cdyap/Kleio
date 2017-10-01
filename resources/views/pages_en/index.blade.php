@@ -143,7 +143,7 @@
 		</div>
 		<div class="row" id="deadseabenefits">
 			<div class="col-lg-12">
-				<h5 class="text-center chivo" style="padding-left:30px;padding-right:30px;margin-bottom:0;margin-top:40px;">Major minerals and ions of Dead Sea mud and salt:</h5>
+				<h5 class="text-center chivo" style="padding-left:30px;padding-right:30px;margin-bottom:0;margin-top:40px;">Major minerals and ions of Dead Sea mud and salt</h5>
 				<hr class="hr-red">
 			</div>
 			<div class="card-columns">
@@ -198,7 +198,7 @@
 				</div>
 			</div>
 		</div>
-		<h5 class="text-center chivo" style="margin-bottom:30px;margin-top:70px;">Skin benefits:</h5>
+		<h5 class="text-center chivo" style="margin-bottom:30px;margin-top:70px;">Skin benefits</h5>
 		<hr class="hr-red">
 		<div class="benefits">
 			<div class="row gap-bottom">
@@ -207,7 +207,7 @@
 				</div>
 				<div class="col-md-6">
 					<br><br>
-					<h5 class="chivo">Improves and treats various skin ailments</h5>
+					<h5 class="chivo">Improves and controls various skin ailments</h5>
 					<p class="playfair grey gap-bottom">Acne, skin rashes, dandruff, psoriasis, cellulite, eczema, skin allergies</p>
 					<br>
 					<h5 class="chivo gap-bottom">Hydrates and moisturizes skin</h5>
@@ -351,7 +351,7 @@
 			<div class="col-lg-4 offsetl-lg-2"></div>
 			<div class="col-lg-6">
 				<h5 class="chivo">Kleio Skin Care System Natural Dead Sea Salt Scrub with Essential Oil (Virgin Coconut Oil)</h5>
-				<p class="grey playfair" style="margin-top:15px;">Authentic Dead Sea Salt Scrub prepared to get rid of dead skin cells, dirt and other skin impurities leaving a new and clean upper skin layer. Moisturized with our very own Philippine Organic Virgin Coconut Oil for a younger looking, rejuvenated and amazingly radiant skin.<br><br>Dead Sea Salt is excellent in terms of exfoliation and nourishing with more than 25 different minerals with optimum skin benefits. It also helps lessen, if not relieve, aches and muscle fatigue leaving the body feeling refreshed and relaxed. <br><br>Virgin Coconut Oil (VCO), has been used since the ancient times to treat extremely dry skin and other skin infections. Its addition to Dead Sea salt makes skin extraordinarily moisturized and regenerated.</p>
+				<p class="grey playfair" style="margin-top:15px;">Authentic Dead Sea Salt Scrub prepared to get rid of dead skin cells, dirt and other skin impurities leaving a new and clean upper skin layer. Moisturized with our very own Philippine Organic Virgin Coconut Oil for a younger looking, rejuvenated and amazingly radiant skin.<br><br>Dead Sea Salt is excellent in terms of exfoliation and nourishing with more than 25 different minerals with optimum skin benefits. It also helps lessen, if not relieve, aches and muscle fatigue leaving the body feeling refreshed and relaxed. <br><br>Virgin Coconut Oil (VCO), has been used since the ancient times to control extremely dry skin and other skin infections. Its addition to Dead Sea salt makes skin extraordinarily moisturized and regenerated.</p>
 			</div>
 		</div>
 		<div class="row product-item">

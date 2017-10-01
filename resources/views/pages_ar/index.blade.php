@@ -50,7 +50,7 @@
 	<div id="landing" class="row" DIR="RTL">
 		<div class="col-xs-12 col-md-6">
 			<img src="img/logo.svg" alt="Kleio Skin Care System logo" class="logo">
-			<h1>راجعي أي أخطاء محتملة</h1>
+			<h1 class="amiri">راجعي أي أخطاء محتملة</h1>
 			<br><br>
 			<a href="#order-form"><button class="chivo styled-button">Inquire and order now!</button></a>
 			<br>
@@ -74,11 +74,11 @@
 			<div class="col-md-6 order-md-1 col-xs-12 space grey">
 				<h3 class="text-center chivo red">معلومات عنا</h3>
 				<hr class="hr-black">
-				<p class="text-gap-left playfair">شركة كليو للعناية بالبشرة هي شركة فلبينية بنسبة 100٪ تم تأسيسها لإيجاد فكرة علامة تجارية لمنتجات العناية بالبشرة التي تستخدم منتجات البحر الميت من الطين الأسود والملح المستورد من اللملكة الأردنية الهاشمية وغيرها من المكونات الطبيعية والرائعة من جميع أنحاء العالم لخلق منتجات ذات جودة وفعالية لتعزيز الجمال الطبيعي.</p>
+				<p class="text-gap-left amiri">شركة كليو للعناية بالبشرة هي شركة فلبينية بنسبة 100٪ تم تأسيسها لإيجاد فكرة علامة تجارية لمنتجات العناية بالبشرة التي تستخدم منتجات البحر الميت من الطين الأسود والملح المستورد من اللملكة الأردنية الهاشمية وغيرها من المكونات الطبيعية والرائعة من جميع أنحاء العالم لخلق منتجات ذات جودة وفعالية لتعزيز الجمال الطبيعي.</p>
 				<br>
-				<p class="text-gap-left playfair">ولقد ظهرنا كمجموعة "كليو للعناية بالبشرة" في السوق منذ أربع سنوات باستخدام مبدأ شبكة توزيع الجملة مع استراتيجية التجزئة. ونظرا لارتفاع تكلفة كل من منتجات التجميل المحلية والمستوردة، فقد فكرت الشركة في تطوير وتصنيع مجموعة واسعة من منتجات جمال البحر الميت باستخدام المواد الطبيعية مع أسعار مخفضة تتراوح  في منطقة المنتصف مانحة المستهلك منتجات عالية الجودة بفوائد الطبيعة القصوى بأسعار أكثر من معقولة.</p>
+				<p class="text-gap-left amiri">ولقد ظهرنا كمجموعة "كليو للعناية بالبشرة" في السوق منذ أربع سنوات باستخدام مبدأ شبكة توزيع الجملة مع استراتيجية التجزئة. ونظرا لارتفاع تكلفة كل من منتجات التجميل المحلية والمستوردة، فقد فكرت الشركة في تطوير وتصنيع مجموعة واسعة من منتجات جمال البحر الميت باستخدام المواد الطبيعية مع أسعار مخفضة تتراوح  في منطقة المنتصف مانحة المستهلك منتجات عالية الجودة بفوائد الطبيعة القصوى بأسعار أكثر من معقولة.</p>
 				<br>
-				<p class="text-gap-left playfair">حن نعمل مع أفضل الشركات المصنعة لتطوير وجلب وتسويق منتجات ذات جودة عالية وعالمية المستوى للعناية بالبشرة والجسم والشعر. تم إجراء فحوصات منتجاتنا في المختبرات بالطرق المناسبة لفحص منتجات العناية بالبشرة ولم يكن هناك اختبارات للمنتجات على الحيوانات. وبالمثل، نحن نصر على أن جميع الموردين لم يقوموا باختبارالمكونات على الحيوانات لأغراض التجميل.</p>
+				<p class="text-gap-left amiri">حن نعمل مع أفضل الشركات المصنعة لتطوير وجلب وتسويق منتجات ذات جودة عالية وعالمية المستوى للعناية بالبشرة والجسم والشعر. تم إجراء فحوصات منتجاتنا في المختبرات بالطرق المناسبة لفحص منتجات العناية بالبشرة ولم يكن هناك اختبارات للمنتجات على الحيوانات. وبالمثل، نحن نصر على أن جميع الموردين لم يقوموا باختبارالمكونات على الحيوانات لأغراض التجميل.</p>
 				<a href="/ar/AboutUs"><button class="chivo styled-button">Read our Mission, Vision, and Values</button></a>
 			</div>
 		</div>
@@ -87,19 +87,19 @@
 		<!-- <div class="row hide-on-lg mv">
 			<div class="col-xs-12 col-md-4">
 				<h5 class="text-center chivo black">Mission</h5>
-				<p class="grey playfair">To establish Kleio Natural Skin Care as a Filipino cosmetic brand that represents high quality in skin and body care.</p>
-				<p class="grey playfair">To use high quality manufacturing and research, a creative marketing program and a comprehensive marketing network using direct distributorship both here and abroad, consumer catalogue and retail outlet.</p>
-				<p class="grey playfair">To meet the personal care needs of our customers and become the cosmetic products of choice.</p>
+				<p class="grey amiri">To establish Kleio Natural Skin Care as a Filipino cosmetic brand that represents high quality in skin and body care.</p>
+				<p class="grey amiri">To use high quality manufacturing and research, a creative marketing program and a comprehensive marketing network using direct distributorship both here and abroad, consumer catalogue and retail outlet.</p>
+				<p class="grey amiri">To meet the personal care needs of our customers and become the cosmetic products of choice.</p>
 			</div>
 
 			<div class="col-xs-12 col-md-4">
 				<h5 class="text-center chivo black">Vision</h5>
-				<p class="grey playfair">We envision Kleio Natural Skin Care products to be a brand positioned as a high quality and world class utilizing an imported Dead Sea by-products namely salt and black mud as the main ingredients. We see Kleio Skin System as a cosmetic market leader that constantly produce products focused specifically on the consumers looking for natural and effective products.</p>
+				<p class="grey amiri">We envision Kleio Natural Skin Care products to be a brand positioned as a high quality and world class utilizing an imported Dead Sea by-products namely salt and black mud as the main ingredients. We see Kleio Skin System as a cosmetic market leader that constantly produce products focused specifically on the consumers looking for natural and effective products.</p>
 			</div>
 
 			<div class="col-xs-12 col-md-4">
 				<h5 class="text-center chivo black">Values</h5>
-				<p class="grey playfair">We believe there is only one way to be beautiful, the natural way. We’ve believed this now and will do work with this thinking in the following years. We constantly seek out wonderful natural ingredients from all four corners of the globe specifically the Dead Sea, and we bring you products with quality and effectiveness to enhance natural beauty. While doing this, we always do our best to protect the earth and the people who depend on it. We don’t do it this way because it is trending and dashing. We do it because, to us, it’s the only way.</p>
+				<p class="grey amiri">We believe there is only one way to be beautiful, the natural way. We’ve believed this now and will do work with this thinking in the following years. We constantly seek out wonderful natural ingredients from all four corners of the globe specifically the Dead Sea, and we bring you products with quality and effectiveness to enhance natural beauty. While doing this, we always do our best to protect the earth and the people who depend on it. We don’t do it this way because it is trending and dashing. We do it because, to us, it’s the only way.</p>
 			</div>
 		</div> -->
 		<!-- Hide up to md -->
@@ -108,23 +108,23 @@
 			<div class="card">
 				<div class="card-block">
 					<h5 class="text-center chivo black">Mission</h5>
-					<p class="grey playfair">To establish Kleio Natural Skin Care as a Filipino cosmetic brand that represents high quality in skin and body care.</p>
-					<p class="grey playfair">To use high quality manufacturing and research, a creative marketing program and a comprehensive marketing network using direct distributorship both here and abroad, consumer catalogue and retail outlet.</p>
-					<p class="grey playfair">To meet the personal care needs of our customers and become the cosmetic products of choice.</p>
+					<p class="grey amiri">To establish Kleio Natural Skin Care as a Filipino cosmetic brand that represents high quality in skin and body care.</p>
+					<p class="grey amiri">To use high quality manufacturing and research, a creative marketing program and a comprehensive marketing network using direct distributorship both here and abroad, consumer catalogue and retail outlet.</p>
+					<p class="grey amiri">To meet the personal care needs of our customers and become the cosmetic products of choice.</p>
 				</div>
 			</div>
 
 			<div class="card" >
 				<div class="card-block">
 					<h5 class="text-center chivo black">Vision</h5>
-					<p class="grey playfair">We envision Kleio Natural Skin Care products to be a brand positioned as a high quality and world class utilizing an imported Dead Sea by-products namely salt and black mud as the main ingredients. We see Kleio Skin System as a cosmetic market leader that constantly produce products focused specifically on the consumers looking for natural and effective products.</p>
+					<p class="grey amiri">We envision Kleio Natural Skin Care products to be a brand positioned as a high quality and world class utilizing an imported Dead Sea by-products namely salt and black mud as the main ingredients. We see Kleio Skin System as a cosmetic market leader that constantly produce products focused specifically on the consumers looking for natural and effective products.</p>
 				</div>
 			</div>
 
 			<div class="card">
 				<div class="card-block">
 					<h5 class="text-center chivo black">Values</h5>
-					<p class="grey playfair">We believe there is only one way to be beautiful, the natural way. We’ve believed this now and will do work with this thinking in the following years. We constantly seek out wonderful natural ingredients from all four corners of the globe specifically the Dead Sea, and we bring you products with quality and effectiveness to enhance natural beauty. While doing this, we always do our best to protect the earth and the people who depend on it. We don’t do it this way because it is trending and dashing. We do it because, to us, it’s the only way.</p>
+					<p class="grey amiri">We believe there is only one way to be beautiful, the natural way. We’ve believed this now and will do work with this thinking in the following years. We constantly seek out wonderful natural ingredients from all four corners of the globe specifically the Dead Sea, and we bring you products with quality and effectiveness to enhance natural beauty. While doing this, we always do our best to protect the earth and the people who depend on it. We don’t do it this way because it is trending and dashing. We do it because, to us, it’s the only way.</p>
 				</div>
 			</div>
 		</div> -->
@@ -136,12 +136,12 @@
 			<div class="col-lg-6 grey space">
 				<h3 class="text-center chivo red">About Dead Sea</h3>
 				<hr class="hr-black">
-				<p class="text-gap-right playfair">Dead Sea, appropriately named because of its high mineral content that allows nothing to survive in its waters, known to be the world’s deepest and saltiest bodies of water located between Israel and Jordan, southeast from Jerusalem in the Middle East. Queen of Sheba, King Herod the Great and Cleopatra, the queen of ancient beauty, are few of those who believed in its therapeutic and curative properties. During the ancient times, Egyptians used the salt in various skin creams, ointments and soaps being used up to the present. Dead Sea Salt on the other hand, was obtained from the mineral rich Dead Sea black mud. Presently, tourists from all over the world visit the place for its medicinal and beautifying effects. </p>
+				<p class="text-gap-right amiri">Dead Sea, appropriately named because of its high mineral content that allows nothing to survive in its waters, known to be the world’s deepest and saltiest bodies of water located between Israel and Jordan, southeast from Jerusalem in the Middle East. Queen of Sheba, King Herod the Great and Cleopatra, the queen of ancient beauty, are few of those who believed in its therapeutic and curative properties. During the ancient times, Egyptians used the salt in various skin creams, ointments and soaps being used up to the present. Dead Sea Salt on the other hand, was obtained from the mineral rich Dead Sea black mud. Presently, tourists from all over the world visit the place for its medicinal and beautifying effects. </p>
 				<br>
-				<p class="text-gap-right playfair">Dead Sea Black Mud and Salt are found in abundance on the shores to about 400 meters below sea level. It contains 10% sodium and the rest are 25 different minerals which had been acclaimed for its beneficial effects on health and skin in particular as compared to other sea water containing 90-97% sodium and the rest of various salts and minerals.</p>
+				<p class="text-gap-right amiri">Dead Sea Black Mud and Salt are found in abundance on the shores to about 400 meters below sea level. It contains 10% sodium and the rest are 25 different minerals which had been acclaimed for its beneficial effects on health and skin in particular as compared to other sea water containing 90-97% sodium and the rest of various salts and minerals.</p>
 			</div>
 		</div>
-		<div class="row" id="deadseabenefits" DIR="RTL">
+		<div class="row ar-benefits" id="deadseabenefits" DIR="RTL">
 			<div class="col-lg-12">
 				<h5 class="text-center chivo" style="padding-left:30px;padding-right:30px;margin-bottom:0;margin-top:40px;">Major minerals and ions of Dead Sea mud and salt</h5>
 				<hr class="hr-red">
@@ -208,7 +208,7 @@
 				<div class="col-md-6">
 					<br><br>
 					<h5 class="chivo">Improves and controls various skin ailments</h5>
-					<p class="playfair grey gap-bottom">Acne, skin rashes, dandruff, psoriasis, cellulite, eczema, skin allergies</p>
+					<p class="amiri grey gap-bottom">Acne, skin rashes, dandruff, psoriasis, cellulite, eczema, skin allergies</p>
 					<br>
 					<h5 class="chivo gap-bottom">Hydrates and moisturizes skin</h5>
 					<br>
@@ -247,7 +247,7 @@
 				<h5 class="chivo">Kleio Skin Care System Natural Mud Soap</h5>
 				<p class="caption usage text-left">Used for bath and basic cleaning of both face and body</p>
 				<p class="caption text-left">Recommended for oily skin</p>
-				<p class="grey playfair">A gentle bar soap to enrich your skin with minerals from the Dead Sea Mud. It flushes away the dirt, dust, dead skin and excess oil leaving the skin smooth and fresh.</p>
+				<p class="grey amiri">A gentle bar soap to enrich your skin with minerals from the Dead Sea Mud. It flushes away the dirt, dust, dead skin and excess oil leaving the skin smooth and fresh.</p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -258,7 +258,7 @@
 				<h5 class="chivo">Kleio Skin Care System Natural Salt Soap with Honey</h5>
 				<p class="caption usage text-left">Used for bath and basic cleaning of both face and body</p>
 				<p class="caption text-left">Recommended for normal to dry skin</p>
-				<p class="grey playfair">A bar soap with unique combination of Dead Sea salt minerals and honey based on an ancient and proven remedy for dry skin. It restores elasticity and diminishes the appearance of laugh lines while ensuring the optimum moisture content.</p>
+				<p class="grey amiri">A bar soap with unique combination of Dead Sea salt minerals and honey based on an ancient and proven remedy for dry skin. It restores elasticity and diminishes the appearance of laugh lines while ensuring the optimum moisture content.</p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -269,8 +269,8 @@
 				<h5 class="chivo">Kleio Skin Care System Natural Facial Toner</h5>
 				<p class="caption usage text-left">Recommended for normal to dry skin</p>
 				<p class="caption text-left"><b>Also available alcohol-free</b><br>Recommended for oily and sensitive skin</p>
-				<p class="grey playfair">Dead Sea water contains a high concentration of various salts and minerals which are known for its purification, nourishing and regenerating properties. With the oily texture, this concentrated water revitalizes and moisturizes the skin leaving a clean and refreshed appearance.<br><br>Ethyl Alcohol commonly referred to as “isopropyl alcohol” basically is used for degreasing and antisepsis. Research reveal that degreasing the skin alleviates production of oil leaving the skin moisturized and healthy looking. Recommended for normal to dry skin.</p>
-				<p class="grey playfair">We are also confident of our alcohol free variant designed to improve and control skin problems such as lesions, etc.  Recommended for oily and sensitive skin. </p>
+				<p class="grey amiri">Dead Sea water contains a high concentration of various salts and minerals which are known for its purification, nourishing and regenerating properties. With the oily texture, this concentrated water revitalizes and moisturizes the skin leaving a clean and refreshed appearance.<br><br>Ethyl Alcohol commonly referred to as “isopropyl alcohol” basically is used for degreasing and antisepsis. Research reveal that degreasing the skin alleviates production of oil leaving the skin moisturized and healthy looking. Recommended for normal to dry skin.</p>
+				<p class="grey amiri">We are also confident of our alcohol free variant designed to improve and control skin problems such as lesions, etc.  Recommended for oily and sensitive skin. </p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -280,7 +280,7 @@
 			<div class="col-lg-6">
 				<h5 class="chivo">Kleio Skin Care System Natural Hair Shampoo</h5>
 				<p class="caption usage text-left">Recommended for all types of hair and sensitive scalp</p>
-				<p class="grey playfair">Dead Sea mineral rich hair shampoo that thoroughly cleanses, nourishes, hydrates and refreshes scalp leaving a soft, radiant and easily manageable all day. It is a combination of natural ingredients and moisturizers that helps, improves, and controls itchy scalp as well as repairs damaged hair. </p>
+				<p class="grey amiri">Dead Sea mineral rich hair shampoo that thoroughly cleanses, nourishes, hydrates and refreshes scalp leaving a soft, radiant and easily manageable all day. It is a combination of natural ingredients and moisturizers that helps, improves, and controls itchy scalp as well as repairs damaged hair. </p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -291,7 +291,7 @@
 				<h5 class="chivo">Kleio Skin Care System Natural Hair Conditioner</h5>
 				<p class="caption usage text-left">Can be applied before, in-between or after shampoo</p>
 				<p class="caption text-left">Recommended for all types of hair and sensitive scalp</p>
-				<p class="grey playfair">Dead Sea mineral rich hair conditioner that nourishes, hydrates, moisturizes and revivify scalp leaving hair softer, more radiant and easily manageable all day. It contains various natural ingredients that may help improve as well as prevent damages from other hair preparations, sun exposure and aging process.</p>
+				<p class="grey amiri">Dead Sea mineral rich hair conditioner that nourishes, hydrates, moisturizes and revivify scalp leaving hair softer, more radiant and easily manageable all day. It contains various natural ingredients that may help improve as well as prevent damages from other hair preparations, sun exposure and aging process.</p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -301,7 +301,7 @@
 			<div class="col-lg-6">
 				<h5 class="chivo">Kleio Skin Care  System Natural Facial Cleansing Cream</h5>
 				<p class="caption usage text-left">Recommended for all skin types and highly sensitive skin</p>
-				<p class="grey playfair">A Dead Sea mineral rich, nourishing, deep cleansing facial wash that leaves a fresh, natural and healthy looking complexion. It contains Dead Sea salt and black mud and various special cleansing ingredients that gently removes dirt, dissolve sebum, make up particles and deeply cleanse the pores as well as helps soften and facilitates removal of skin black heads.  Incorporated also are moisturizers to prevent dryness and other skin damages.</p>
+				<p class="grey amiri">A Dead Sea mineral rich, nourishing, deep cleansing facial wash that leaves a fresh, natural and healthy looking complexion. It contains Dead Sea salt and black mud and various special cleansing ingredients that gently removes dirt, dissolve sebum, make up particles and deeply cleanse the pores as well as helps soften and facilitates removal of skin black heads.  Incorporated also are moisturizers to prevent dryness and other skin damages.</p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -311,7 +311,7 @@
 			<div class="col-lg-6">
 				<h5 class="chivo">Kleio Skin Care System Natural Shower Gel</h5>
 				<p class="caption usage text-left">Recommended for all skin types</p>
-				<p class="grey playfair">Dead Sea mineral rich body cleansing, moisturizing, nourishing and refreshing shower gel. It gently washes away dirt, dry skin and other skin impurities as well as help control and prevent dryness, roughness and cracking of the skin. Leaves skin feeling smooth, refreshed and naturally healthy looking complexion.</p>
+				<p class="grey amiri">Dead Sea mineral rich body cleansing, moisturizing, nourishing and refreshing shower gel. It gently washes away dirt, dry skin and other skin impurities as well as help control and prevent dryness, roughness and cracking of the skin. Leaves skin feeling smooth, refreshed and naturally healthy looking complexion.</p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -322,7 +322,7 @@
 				<h5 class="chivo">Kleio Skin Care System Natural Facial Cream with <a href="#" data-toggle="tooltip" data-placement="top" title="SPF, stands for Sun Protection Factor, measures on how well the sunscreen preparation can protect our skin from UVB rays. The figure indicates the number of times longer the skin can be protected from harmful sun rays.">SPF</a></h5>
 				<p class="caption usage text-left"><b>Available in SPF 50, SPF 20, and SPF88</b><br>For use under make-up or alone</p>
 				<p class="caption text-left">Recommended for all skin types especially the highly sensitive skin with wrinkles and other impurities. Apply in the morning and may reapply as desired</p>
-				<p class="grey playfair">Facial day cream, moisturizer, nourishing and revitalizing sunscreen that retains natural and replaces lost moisture for repair and growth while it protects the skin from harmful sun rays. Smoothens and refines the clarity and texture of the facial skin.<br><br>Among the ingredients that repair skin damages from infrared heat rays, it contains Titanium Dioxide to block both UVA, which causes sun damaged skin aging and UVB, which causes painful sunburn. Titanium Dioxide is incorporated for optimum skin protection from the so called Ultraviolet Rays from the sun.</p>
+				<p class="grey amiri">Facial day cream, moisturizer, nourishing and revitalizing sunscreen that retains natural and replaces lost moisture for repair and growth while it protects the skin from harmful sun rays. Smoothens and refines the clarity and texture of the facial skin.<br><br>Among the ingredients that repair skin damages from infrared heat rays, it contains Titanium Dioxide to block both UVA, which causes sun damaged skin aging and UVB, which causes painful sunburn. Titanium Dioxide is incorporated for optimum skin protection from the so called Ultraviolet Rays from the sun.</p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -333,7 +333,7 @@
 				<h5 class="chivo">Kleio Skin Care System Natural Facial Night Cream</h5>
 				<p class="caption usage text-left">Apply at night to clean face and neck</p>
 				<p class="caption text-left">Recommended for all skin types especially the highly sensitive skin with wrinkles and other impurities</p>
-				<p class="grey playfair">An anti-aging, moisturizing, nourishing, and revitalizing night cream that smoothens and refines the clarity and texture of the facial skin.<br><br>For maximum effects from reduction of roughness and irritation of the skin to complete repair and rejuvenation, we incorporated natural ingredients such as Dead Sea minerals, honey extract and Cassia Angustifolia Seed Polysaccharide. <br><br>Cassia Angustifolia is a native herb from India that functions for hydration and retention of moisture.</p>
+				<p class="grey amiri">An anti-aging, moisturizing, nourishing, and revitalizing night cream that smoothens and refines the clarity and texture of the facial skin.<br><br>For maximum effects from reduction of roughness and irritation of the skin to complete repair and rejuvenation, we incorporated natural ingredients such as Dead Sea minerals, honey extract and Cassia Angustifolia Seed Polysaccharide. <br><br>Cassia Angustifolia is a native herb from India that functions for hydration and retention of moisture.</p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -344,14 +344,14 @@
 				<h5 class="chivo">Kleio Skin Care System Natural Dead Sea Facial or Body Mud Mask</h5>
 				<p class="caption usage text-left"><b>Available in Menthol and Unscented variants</b></p>
 				<p class="caption text-left">Recommended for all skin types</p>
-				<p class="grey playfair">Authentic Dead Sea facial mud masks prepared to deeply cleanse and unclogs the pores from dirt deposits and skin impurities. <br><br>Combination of the various minerals of excellent skin benefits relieves tension on the skin leading to shrinkage of the pores and reduction of wrinkles and fine lines leaving a soft, smooth and healthy and radiant facial skin.<br><br>Menthol, naturally obtained from peppermint reduces discomforts and gives a soothing and refreshing feel.</p>
+				<p class="grey amiri">Authentic Dead Sea facial mud masks prepared to deeply cleanse and unclogs the pores from dirt deposits and skin impurities. <br><br>Combination of the various minerals of excellent skin benefits relieves tension on the skin leading to shrinkage of the pores and reduction of wrinkles and fine lines leaving a soft, smooth and healthy and radiant facial skin.<br><br>Menthol, naturally obtained from peppermint reduces discomforts and gives a soothing and refreshing feel.</p>
 			</div>
 		</div>
 		<div class="row product-item">
 			<div class="col-lg-4 offsetl-lg-2"></div>
 			<div class="col-lg-6">
 				<h5 class="chivo">Kleio Skin Care System Natural Dead Sea Salt Scrub with Essential Oil (Virgin Coconut Oil)</h5>
-				<p class="grey playfair" style="margin-top:15px;">Authentic Dead Sea Salt Scrub prepared to get rid of dead skin cells, dirt and other skin impurities leaving a new and clean upper skin layer. Moisturized with our very own Philippine Organic Virgin Coconut Oil for a younger looking, rejuvenated and amazingly radiant skin.<br><br>Dead Sea Salt is excellent in terms of exfoliation and nourishing with more than 25 different minerals with optimum skin benefits. It also helps lessen, if not relieve, aches and muscle fatigue leaving the body feeling refreshed and relaxed. <br><br>Virgin Coconut Oil (VCO), has been used since the ancient times to control extremely dry skin and other skin infections. Its addition to Dead Sea salt makes skin extraordinarily moisturized and regenerated.</p>
+				<p class="grey amiri" style="margin-top:15px;">Authentic Dead Sea Salt Scrub prepared to get rid of dead skin cells, dirt and other skin impurities leaving a new and clean upper skin layer. Moisturized with our very own Philippine Organic Virgin Coconut Oil for a younger looking, rejuvenated and amazingly radiant skin.<br><br>Dead Sea Salt is excellent in terms of exfoliation and nourishing with more than 25 different minerals with optimum skin benefits. It also helps lessen, if not relieve, aches and muscle fatigue leaving the body feeling refreshed and relaxed. <br><br>Virgin Coconut Oil (VCO), has been used since the ancient times to control extremely dry skin and other skin infections. Its addition to Dead Sea salt makes skin extraordinarily moisturized and regenerated.</p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -359,7 +359,7 @@
 			<div class="col-lg-6">
 				<h5 class="chivo">Kleio Skin Care System Natural Dead Sea Facial Exfoliating Cream</h5>
 				<p class="caption usage text-left">Recommended for all skin types</p>
-				<p class="grey playfair" style="margin-top:15px;">Dead Sea Salt as a great exfoliating and nourishing agent together with Apricot Scrub makes an excellent combination for amazingly clear, soft and younger looking skin.<br><br>Dead Sea Salt is excellent in terms of exfoliation and nourishing with more than 25 different minerals with optimum skin benefits. It contains anti-oxidants which prevents premature signs of aging. Also contains Prunus Armeniaca Shell Scrub (Apricot) also contains skin nutrients with promising moisturizing, revitalizing and nourishing effects on your precious skin.</p>
+				<p class="grey amiri" style="margin-top:15px;">Dead Sea Salt as a great exfoliating and nourishing agent together with Apricot Scrub makes an excellent combination for amazingly clear, soft and younger looking skin.<br><br>Dead Sea Salt is excellent in terms of exfoliation and nourishing with more than 25 different minerals with optimum skin benefits. It contains anti-oxidants which prevents premature signs of aging. Also contains Prunus Armeniaca Shell Scrub (Apricot) also contains skin nutrients with promising moisturizing, revitalizing and nourishing effects on your precious skin.</p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -367,7 +367,7 @@
 			<div class="col-lg-6">
 				<h5 class="chivo">Kleio Skin Care System Natural Dead Sea Foot Soak </h5>
 				<p class="caption usage text-left">Recommended for all skin types</p>
-				<p class="grey playfair" style="margin-top:15px;">Foot Soak enriched with Dead Sea Salt Minerals for cleansing, moisturizing and nourishing. It gently softens and washes away dry and rough skin. It also helps control and prevents dryness and cracking of the feet. Leaves feet feeling smooth, soothed, relaxed and naturally healthy looking complexion. Use of Kleio Skin Care System Natural Foot Scrub is highly recommended.</p>
+				<p class="grey amiri" style="margin-top:15px;">Foot Soak enriched with Dead Sea Salt Minerals for cleansing, moisturizing and nourishing. It gently softens and washes away dry and rough skin. It also helps control and prevents dryness and cracking of the feet. Leaves feet feeling smooth, soothed, relaxed and naturally healthy looking complexion. Use of Kleio Skin Care System Natural Foot Scrub is highly recommended.</p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -375,7 +375,7 @@
 			<div class="col-lg-6">
 				<h5 class="chivo">Kleio Skin Care System Natural Dead Sea Foot/Body Scrub</h5>
 				<p class="caption usage text-left">Recommended for all skin types</p>
-				<p class="grey playfair" style="margin-top:15px;">Dead Sea Salt as a great exfoliating and nourishing agent together with Walnut Powder makes an excellent combination for amazingly clear, soft and younger looking skin.<br><br>Dead Sea Salt is excellent in terms of exfoliation and nourishing with more than 25 different minerals with optimum skin benefits. It contains anti-oxidants which prevents premature signs of aging. Also contains Juglans Regia (Walnut) Shell Powder is a natural, non-toxic, clinically safe plant extract and an excellent exfoliating ingredient with a good anti-oxidant properties. It scrub off dead skin cells to reveal a revitalized, rejuvenated and healthy looking skin. </p>
+				<p class="grey amiri" style="margin-top:15px;">Dead Sea Salt as a great exfoliating and nourishing agent together with Walnut Powder makes an excellent combination for amazingly clear, soft and younger looking skin.<br><br>Dead Sea Salt is excellent in terms of exfoliation and nourishing with more than 25 different minerals with optimum skin benefits. It contains anti-oxidants which prevents premature signs of aging. Also contains Juglans Regia (Walnut) Shell Powder is a natural, non-toxic, clinically safe plant extract and an excellent exfoliating ingredient with a good anti-oxidant properties. It scrub off dead skin cells to reveal a revitalized, rejuvenated and healthy looking skin. </p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -383,7 +383,7 @@
 			<div class="col-lg-6">
 				<h5 class="chivo">Kleio Skin Care System Natural Dead Sea Facial Foam Wash</h5>
 				<p class="caption usage text-left">Recommended for all skin types and highly sensitive skin</p>
-				<p class="grey playfair" style="margin-top:15px;">Kleio Skin Care System Natural Dead Sea Facial Foam WashA Dead Sea mineral rich, nourishing, deep cleansing facial wash that leaves a fresh, natural and healthy looking complexion. <br><br>It contains Dead Sea salt and black mud and various special cleansing ingredients that gently removes dirt, dissolve sebum, make up particles and deeply cleanse the pores as well as helps soften and facilitates removal of skin black heads.  Incorporated also are moisturizers to prevent dryness and other skin damages. </p>
+				<p class="grey amiri" style="margin-top:15px;">Kleio Skin Care System Natural Dead Sea Facial Foam WashA Dead Sea mineral rich, nourishing, deep cleansing facial wash that leaves a fresh, natural and healthy looking complexion. <br><br>It contains Dead Sea salt and black mud and various special cleansing ingredients that gently removes dirt, dissolve sebum, make up particles and deeply cleanse the pores as well as helps soften and facilitates removal of skin black heads.  Incorporated also are moisturizers to prevent dryness and other skin damages. </p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -391,7 +391,7 @@
 			<div class="col-lg-6">
 				<h5 class="chivo">Kleio Skin Care System Natural Dead Sea Bubble Bath</h5>
 				<p class="caption usage text-left">Recommended for all skin types</p>
-				<p class="grey playfair" style="margin-top:15px;">Dead Sea mineral rich body cleansing, moisturizing and nourishing bubble bath. It gently washes away dirt, dry skin and other skin impurities as well as help control and prevent dryness, roughness and cracking of the skin. Leaves skin feeling smooth, refreshed, fragrant and naturally healthy looking complexion.</p>
+				<p class="grey amiri" style="margin-top:15px;">Dead Sea mineral rich body cleansing, moisturizing and nourishing bubble bath. It gently washes away dirt, dry skin and other skin impurities as well as help control and prevent dryness, roughness and cracking of the skin. Leaves skin feeling smooth, refreshed, fragrant and naturally healthy looking complexion.</p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -399,7 +399,7 @@
 			<div class="col-lg-6">
 				<h5 class="chivo">Kleio Skin Care System Natural Dead Sea Foot Lotion</h5>
 				<p class="caption usage text-left">Recommended for all skin types</p>
-				<p class="grey playfair" style="margin-top:15px;">Mineral rich Dead Sea Salt with mineral and peppermint oils makes an excellent combination to reveal a nourished, moisturized, rejuvenated, refreshed and amazingly silky soft feet.<br><br>Contains Mineral Oil, an essential oil that effectively retains moisture and helps absorption of nutrients in the skin especially in severely dry and cracked feet. It is safe for sensitive skin and hypoallergenic. Also contains Mentha Piperita (Peppermint) Oil is a plant extract with antimicrobial properties that prevents itchiness and development of skin problems and other impurities. It also gives a refreshing and cooling effects that relaxes the stiffed and tired muscle.</p>
+				<p class="grey amiri" style="margin-top:15px;">Mineral rich Dead Sea Salt with mineral and peppermint oils makes an excellent combination to reveal a nourished, moisturized, rejuvenated, refreshed and amazingly silky soft feet.<br><br>Contains Mineral Oil, an essential oil that effectively retains moisture and helps absorption of nutrients in the skin especially in severely dry and cracked feet. It is safe for sensitive skin and hypoallergenic. Also contains Mentha Piperita (Peppermint) Oil is a plant extract with antimicrobial properties that prevents itchiness and development of skin problems and other impurities. It also gives a refreshing and cooling effects that relaxes the stiffed and tired muscle.</p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -407,7 +407,7 @@
 			<div class="col-lg-6">
 				<h5 class="chivo">Kleio Skin Care System Natural Dead Sea Hand Lotion</h5>
 				<p class="caption usage text-left">Recommended for all skin types and highly sensitive skin</p>
-				<p class="grey playfair" style="margin-top:15px;">A Hand Lotion enriched with Dead Sea Salt Minerals blended to perfection with natural oils to reveal a moisturized, nourished and amazingly healthy silky soft hand.<br><br>Contains Mineral Oil, an essential oil that effectively retains moisture and helps in absorption of nutrients in the skin especially in severely dry and rough hand. It is safe for sensitive skin and hypoallergenic. Also contains Prunus Amygdalus Dulcis (Sweet Almond) Oil, an extract of almond seed enriched with Vitamins A and B with excellent antioxidants and anti-aging properties. </p>
+				<p class="grey amiri" style="margin-top:15px;">A Hand Lotion enriched with Dead Sea Salt Minerals blended to perfection with natural oils to reveal a moisturized, nourished and amazingly healthy silky soft hand.<br><br>Contains Mineral Oil, an essential oil that effectively retains moisture and helps in absorption of nutrients in the skin especially in severely dry and rough hand. It is safe for sensitive skin and hypoallergenic. Also contains Prunus Amygdalus Dulcis (Sweet Almond) Oil, an extract of almond seed enriched with Vitamins A and B with excellent antioxidants and anti-aging properties. </p>
 			</div>
 		</div>
 		<div class="row product-item">
@@ -416,7 +416,7 @@
 				<h5 class="chivo">Kleio Skin Care System Natural Dead Sea Body Lotion with <a href="#" data-toggle="tooltip" data-placement="top" title="SPF, stands for Sun Protection Factor, measures on how well the sunscreen preparation can protect our skin from UVB rays. The figure indicates the number of times longer the skin can be protected from harmful sun rays.">SPF20</a></h5>
 				<p class="caption usage text-left">Apply to desired areas and may reapply every 2 to 4 hours</p>
 				<p class="caption text-left">Recommended for all skin types especially the highly sensitive skin</p>
-				<p class="grey playfair" style="margin-top:15px;">A Dead Sea Mineral rich body lotion, moisturizer, nourishing and revitalizing sunscreen that retains natural and replaces lost moisture for repair and growth while it protects the skin from harmful sun rays. Smoothens and refines the clarity and texture of the facial skin.<br><br>Among the ingredients that repair skin damages from infrared heat rays, it contains Titanium Dioxide to block both UVA, which causes sun damaged skin aging and UVB, which causes painful sunburn. Titanium Dioxide is incorporated for optimum skin protection from the so called Ultraviolet Rays from the sun.</p>
+				<p class="grey amiri" style="margin-top:15px;">A Dead Sea Mineral rich body lotion, moisturizer, nourishing and revitalizing sunscreen that retains natural and replaces lost moisture for repair and growth while it protects the skin from harmful sun rays. Smoothens and refines the clarity and texture of the facial skin.<br><br>Among the ingredients that repair skin damages from infrared heat rays, it contains Titanium Dioxide to block both UVA, which causes sun damaged skin aging and UVB, which causes painful sunburn. Titanium Dioxide is incorporated for optimum skin protection from the so called Ultraviolet Rays from the sun.</p>
 			</div>
 		</div>
 
@@ -432,21 +432,21 @@
                         <div class="col-lg-3"></div>
                         <div class="col-xs-12 col-lg-6 form-group">
                             <label>Name:</label><br>
-                            <input type="text" id="contact-name" name="name" class="form-control playfair" required />
+                            <input type="text" id="contact-name" name="name" class="form-control amiri" required />
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-3"></div>
                         <div class="col-xs-12 col-lg-6 form-group">
                             <label>Email:</label><br>
-                            <input type="text" id="contact-email" name="email" class="form-control playfair"  required />
+                            <input type="text" id="contact-email" name="email" class="form-control amiri"  required />
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-3"></div>
                         <div class="col-xs-12 col-lg-6 form-group">
                             <label>Message:</label><br>
-                            <textarea rows=2 type="text" id="contact-message" name="message" required class="form-control playfair" ></textarea>
+                            <textarea rows=2 type="text" id="contact-message" name="message" required class="form-control amiri" ></textarea>
                         </div>
                     </div>
                     <div class="row">

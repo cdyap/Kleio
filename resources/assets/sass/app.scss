@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Chivo:400,700|Playfair+Display');
+
+@import url('https://fonts.googleapis.com/css?family=Amiri:400,700&subset=arabic');
+
 @import "toastr";
 
 /* GENERAL CSS RULES */
@@ -22,6 +25,10 @@
 
 .chivo {
 	font-family: "Chivo";
+}
+
+.amiri {
+	font-family: "Amiri", serif;
 }
 
 .red {
@@ -48,10 +55,10 @@ a {
 
 .card div.card-block {
 	padding: 20px!important;
+}
 
-	p {
-		text-align: right;
-	}
+.ar-benefits .card-columns .card-block p {
+	text-align: right;
 }
 
 
@@ -346,7 +353,6 @@ a.language-link {
 }
 
 #landing h1{
-	font-family: 'Chivo', sans-serif;
 	color: #322f31;
 	z-index: 700;
 }
@@ -719,4 +725,9 @@ button:focus {
 		padding-left: 20vw;
 		padding-right: 20vw;
 	}
+}
+
+
+h2.amiri, h1.amiri, h3.amiri {
+	font-weight:700;
 }

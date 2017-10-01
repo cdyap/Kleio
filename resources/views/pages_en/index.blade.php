@@ -50,7 +50,7 @@
 	<div id="landing" class="row">
 		<div class="col-xs-12 col-md-6">
 			<img src="img/logo.svg" alt="Kleio Skin Care System logo" class="logo">
-			<h1>Be beautiful naturally</h1>
+			<h1 class="chivo">Be beautiful naturally</h1>
 			<br><br>
 			<a href="#order-form"><button class="chivo styled-button">Inquire and order now!</button></a>
 			<br>

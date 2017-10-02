@@ -53,7 +53,7 @@ class PagesController extends Controller
 
             $message->from($data['email'], $data['name']);
             $message->subject("Kleio Inquiry from ". $data['name']);
-            $message->to('cdyap@outlook.com');
+            $message->to('info.kleioskincarecorp@gmail.com');
 
         });
 

@@ -115,7 +115,11 @@ body {
 	opacity: 1;
 }
 
-
+.center {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
 
 
 
@@ -322,6 +326,10 @@ nav ul a:hover {
 	background: #faf9f7;
 	height: 94vh;
 	text-align: center;
+}
+
+.over {
+	z-index:10;
 }
 
 #landing img.girl {
@@ -582,6 +590,12 @@ button:focus {
 }
 /* for md and below */
 @media (max-width: 767px) {
+	.over-text {
+		background:#faf9f7;
+		border: 10px solid #faf9f7;
+	}
+
+
 	#top, #bottom, #left, #right {
 		display:  none;
 	}
@@ -730,4 +744,17 @@ button:focus {
 
 h2.amiri, h1.amiri, h3.amiri {
 	font-weight:700;
+}
+
+/* 404 rules */
+
+.not-found-page {
+	height:auto!important;
+	button a {
+		color:white;
+
+	}
+	a:hover {
+		border: none;
+	}
 }

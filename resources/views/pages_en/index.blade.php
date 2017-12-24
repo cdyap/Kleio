@@ -48,7 +48,7 @@
 	<div id="top"></div>
 	<div id="bottom"></div>
 	<div id="landing" class="row">
-		<div class="col-xs-12 col-md-6">
+		<div class="col-xs-12 col-md-6 over">
 			<img src="img/logo.svg" alt="Kleio Skin Care System logo" class="logo">
 			<h1 class="chivo">Be beautiful naturally</h1>
 			<br><br>
@@ -56,7 +56,7 @@
 			<br>
 			<br>
 			<br>
-			<p style="font-size:0.8em">View this website in <a href="/ru" class="language-link">Russian</a> or <a href="/ar" class="language-link">Arabic</a></p>
+			<p style="font-size:0.8em"><span class="over-text">View this website in <a href="http://manila-star.ru/" target="_new" class="language-link">Russian</a> or <a href="/ar" class="language-link">Arabic</a></span></p>
 		</div>
 		<div class="col-xs-12 col-md-6"><img src="img/landingimage.png" alt="Russian girl Kleio model" class="girl hide-on-sm"><img src="img/landingimage-sm.png" alt="Russian girl Kleio model" class="girl-sm hide-on-lg"></div>
 	</div>

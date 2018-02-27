@@ -19,7 +19,9 @@ elixir((mix) => {
     mix.sass('app.scss')
        .version('css/app.css')
        .scripts([
-       		'main.js'       		
-       	])
-       .webpack('app.js');
+            'main.js'       // your custom js file located in default location: /resources/assets/js/
+       ], 'public/js/app.js')
+       .version([             // optionally append versioning string to filename
+            'js/app.js'
+      ]).browserify('app.js');
 });

@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	console.log("Hi");
 	$('[data-toggle="tooltip"]').tooltip(); 
 	$('[data-toggle="tooltip"]').click(function(e){
 		e.preventDefault();
